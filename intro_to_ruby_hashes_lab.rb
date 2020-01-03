@@ -4,8 +4,8 @@ end
 
 def my_hash
   p newhash = {
-    key1 => X,
-    key2 => Y,
+    key1: X,
+    key2: Y,
   }
 end
 

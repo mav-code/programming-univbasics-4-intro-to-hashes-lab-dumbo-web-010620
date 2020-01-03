@@ -17,11 +17,15 @@ def pioneer
 end
 
 def id_generator
-  # return a hash with a key :id assigned to positive integer
+  p hash2 = {
+    :id => 1337
+  }
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+  p hash3 = {
+    key: value
+  }
 end
 
 def read_from_hash(hash, key)

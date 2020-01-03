@@ -11,7 +11,9 @@ def my_hash
 end
 
 def pioneer
- pioneer = {
+ p pioneer = {
+   :name => 'Grace Hopper'
+ }
 end
 
 def id_generator

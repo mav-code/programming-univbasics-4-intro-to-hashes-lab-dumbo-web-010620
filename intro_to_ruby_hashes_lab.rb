@@ -25,7 +25,7 @@ end
 def my_hash_creator(key, value)
   hash3 = Hash.new
   hash3[key] = value
-  puts hash3
+  p hash3
 end
 
 def read_from_hash(hash, key)

@@ -23,7 +23,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  p hash3 = {
+  hash3 = {
     :key => value
   }
 end

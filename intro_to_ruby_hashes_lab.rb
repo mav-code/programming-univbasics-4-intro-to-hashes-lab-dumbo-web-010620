@@ -23,9 +23,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  hash3 = {
-    :key => value
-  }
+  hash3[key] = value
+  puts hash3
 end
 
 def read_from_hash(hash, key)
